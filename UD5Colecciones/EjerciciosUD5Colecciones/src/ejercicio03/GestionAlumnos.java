@@ -1,23 +1,13 @@
 package ejercicio03;
 
+import java.util.Iterator;
+
 public class GestionAlumnos {
 
-	public double calcularNotaMedia(double nota1, double nota2, double nota3) {
-		double media=0.0;
-		media=nota1+nota2+nota3;
-		return media;
-	}
-	
-	public void decirSuspensos(double nota1, double nota2, double nota3) {
-		int suspensos=0;
-		if(nota1<5) {
-			suspensos++;
-		}
-		if(nota2<5) {
-			suspensos++;
-		}
-		if(nota3<5) {
-			suspensos++;
-		}
-	}
+	private CrudAlumno c;
+	//Si ya existe un na lista de alumnos en otra clase, y no tenemos en esta clase, hay que instanciar un objeto CrudAlumno para poder 
+	//ultilizar la lista y los metodos crud en esta lista
+	//public double calcularMediaCurso(String curso) {
+		//Iterator <Alumno> it=  c.findByDni(curso);
+	//}
 }
