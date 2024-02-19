@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module EjemplosUd5Colecciones {
-}

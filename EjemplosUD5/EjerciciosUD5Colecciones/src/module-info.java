@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module EjerciciosUD5Colecciones {
-}
